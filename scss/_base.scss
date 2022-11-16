@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: $font-common;
+    background-color: $color-very-dark-blue;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sr-only {
+    font-size: 0;
+}

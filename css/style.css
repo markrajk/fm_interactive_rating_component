@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216deg, 12%, 8%);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sr-only {
+  font-size: 0;
+}
+
+.card {
+  padding: 3em;
+  width: 37em;
+  height: 39em;
+  border-radius: 30px;
+  background: hsl(213deg, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 576px) {
+  .card {
+    width: 34em;
+    height: 37em;
+    padding: 3em 2em;
+  }
+}
+.card_badge {
+  display: inline-block;
+  width: 4.5em;
+  height: 4.5em;
+  min-width: 4.5em;
+  min-height: 4.5em;
+  border-radius: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216deg, 12%, 24%);
+}
+.card_title {
+  margin: 1em 0 0.5em;
+  font-size: 2.6em;
+  color: hsl(0deg, 0%, 100%);
+}
+.card_text {
+  font-size: 1.5em;
+  color: hsl(217deg, 12%, 63%);
+  line-height: 1.5;
+  font-weight: 400;
+}
+.card .rating {
+  margin: auto 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .rating_item input[type=radio] {
+  display: none;
+}
+.card .rating_item input[type=radio]:checked + label {
+  background-color: #FC7614;
+  color: hsl(0deg, 0%, 100%);
+}
+.card .rating_item_content {
+  width: 3em;
+  height: 3em;
+  min-width: 3em;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: hsl(216deg, 12%, 24%);
+  font-size: 1.5em;
+  color: hsl(217deg, 12%, 63%);
+  cursor: pointer;
+}
+.card .rating_item_content:hover {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.card .button {
+  height: 4rem;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FC7614;
+  color: hsl(0deg, 0%, 100%);
+  border: 0;
+  border-radius: 2.5rem;
+  outline: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.card .button:hover, .card .button:active {
+  background-color: hsl(0deg, 0%, 100%);
+  color: #FC7614;
+  font-weight: 400;
+}
+.card.card-thank-you {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card.card-thank-you .card_badge {
+  margin-top: 1.5em;
+  padding: 0.4em 1.2em;
+  height: auto;
+  width: auto;
+  min-height: fit-content;
+  min-width: fit-content;
+  font-size: 1.5em;
+  color: #FC7614;
+}
+
+/*# sourceMappingURL=style.css.map */
