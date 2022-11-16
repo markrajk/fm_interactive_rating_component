@@ -15,12 +15,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/markrajk/fm_interactive_rating_component](https://github.com/markrajk/fm_interactive_rating_component)
+- Live Site URL: [https://markrajk.github.io/fm_interactive_rating_component/](https://markrajk.github.io/fm_interactive_rating_component/)
 
 ## My process
 
